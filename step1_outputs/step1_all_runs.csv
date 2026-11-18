@@ -1,0 +1,276 @@
+dataset,mech,level,seed,method,norm,id,rmse,rmse_wo_shifted,deterministic,seconds,val_stop_rmse_in_model_space,best_step,label,cond
+Siemens,MNAR,0.3,3,KNN,global,Siemens|MNAR|0.3|3|KNN|global,0.6418609967096643,0.4292597125885768,True,11.0,,,KNN-global,Siemens MNAR 0.3
+Siemens,MCAR,0.3,3,KNN,global,Siemens|MCAR|0.3|3|KNN|global,0.595626317622738,0.33199257679278554,True,7.6,,,KNN-global,Siemens MCAR 0.3
+Siemens,GAP,30.0,1,KNN,seq,Siemens|GAP|30|1|KNN|seq,0.41628555961761743,0.33396852157916934,True,13.9,,,KNN-seq,Siemens GAP 30
+Siemens,MAR,0.3,0,KNN,global,Siemens|MAR|0.3|0|KNN|global,0.5532628855863626,0.3369623341355271,True,18.2,,,KNN-global,Siemens MAR 0.3
+Siemens,MAR,0.3,0,SAITS,global,Siemens|MAR|0.3|0|SAITS|global,0.47850691881649243,0.2584631103376023,True,58.9,0.22652126242385354,,SAITS-global,Siemens MAR 0.3
+Siemens,MCAR,0.3,2,SAITS,seq,Siemens|MCAR|0.3|2|SAITS|seq,0.2765521387167527,0.22644150006859154,True,54.4,4.023194538730675,,SAITS-seq,Siemens MCAR 0.3
+ECG200,MCAR,0.3,0,KNN,global,ECG200|MCAR|0.3|0|KNN|global,0.3868200519041979,,True,0.8,,,KNN-global,ECG200 MCAR 0.3
+Siemens,MCAR,0.3,4,DTIN-v2 w/o seq-norm,internal,Siemens|MCAR|0.3|4|DTIN-v2 w/o seq-norm|internal,0.5461879124272987,0.23920628155851062,True,124.1,,12250.0,DTIN-v2 w/o seq-norm,Siemens MCAR 0.3
+Siemens,MNAR,0.3,3,Linear regression,global,Siemens|MNAR|0.3|3|Linear regression|global,0.455335014169892,0.44377332119734847,True,0.4,,,Linear regression,Siemens MNAR 0.3
+Siemens,MAR,0.3,3,SAITS,global,Siemens|MAR|0.3|3|SAITS|global,0.7117069711619618,0.2654352982393782,True,171.6,0.19400216968035766,,SAITS-global,Siemens MAR 0.3
+Siemens,MCAR,0.3,2,Linear regression,global,Siemens|MCAR|0.3|2|Linear regression|global,0.3608692564713156,0.33992253423599933,True,0.3,,,Linear regression,Siemens MCAR 0.3
+Siemens,MNAR,0.3,1,BRITS,global,Siemens|MNAR|0.3|1|BRITS|global,0.5704626258917298,0.3535642756540656,True,14693.7,0.3228791827590559,,BRITS-global,Siemens MNAR 0.3
+Siemens,GAP,30.0,3,BRITS,seq,Siemens|GAP|30|3|BRITS|seq,0.2966453355897921,0.2696152041851656,True,8735.9,8.534135208322386,,BRITS-seq,Siemens GAP 30
+Siemens,MNAR,0.3,0,BRITS,seq,Siemens|MNAR|0.3|0|BRITS|seq,0.3859158892421227,0.3533428018877253,True,14634.6,4.5099995384003355,,BRITS-seq,Siemens MNAR 0.3
+Siemens,MNAR,0.3,0,Linear regression,global,Siemens|MNAR|0.3|0|Linear regression|global,0.4583814803640904,0.44924449757182944,True,0.5,,,Linear regression,Siemens MNAR 0.3
+ECG200,MCAR,0.3,1,"Transformer (no mask input, no seq-norm)",internal,"ECG200|MCAR|0.3|1|Transformer (no mask input, no seq-norm)|internal",0.3657167650573704,,True,87.2,,2000.0,"Transformer (no mask input, no seq-norm)",ECG200 MCAR 0.3
+Siemens,GAP,30.0,2,KNN,seq,Siemens|GAP|30|2|KNN|seq,0.35738177858968745,0.3322202845524244,True,13.7,,,KNN-seq,Siemens GAP 30
+ECG200,MCAR,0.3,2,BRITS,global,ECG200|MCAR|0.3|2|BRITS|global,0.33013800865249865,,True,1385.4,0.28916780206266157,,BRITS-global,ECG200 MCAR 0.3
+Siemens,GAP,30.0,2,KNN,global,Siemens|GAP|30|2|KNN|global,0.6325106266254762,0.3400915744472572,True,14.0,,,KNN-global,Siemens GAP 30
+Siemens,MAR,0.3,2,"Transformer (no mask input, no seq-norm)",internal,"Siemens|MAR|0.3|2|Transformer (no mask input, no seq-norm)|internal",0.3172021692570554,0.2932551479983268,True,170.3,,12500.0,"Transformer (no mask input, no seq-norm)",Siemens MAR 0.3
+Siemens,MCAR,0.3,0,KNN,seq,Siemens|MCAR|0.3|0|KNN|seq,0.4417955444670336,0.3186975902346136,True,7.2,,,KNN-seq,Siemens MCAR 0.3
+Siemens,MCAR,0.3,3,SAITS,seq,Siemens|MCAR|0.3|3|SAITS|seq,0.23883892744414778,0.2245632825587293,True,118.4,3.340896687156729,,SAITS-seq,Siemens MCAR 0.3
+Siemens,MAR,0.3,3,BRITS,global,Siemens|MAR|0.3|3|BRITS|global,0.8006521421377302,0.23915955575538475,True,14724.5,0.1749948737183082,,BRITS-global,Siemens MAR 0.3
+ECG200,MCAR,0.3,0,Linear regression,global,ECG200|MCAR|0.3|0|Linear regression|global,0.9788059274664261,,True,0.4,,,Linear regression,ECG200 MCAR 0.3
+Siemens,MNAR,0.3,4,KNN,global,Siemens|MNAR|0.3|4|KNN|global,0.6244945964417963,0.4350976044058923,True,11.7,,,KNN-global,Siemens MNAR 0.3
+ECG200,MCAR,0.3,3,DTIN-v2 w/o seq-norm,internal,ECG200|MCAR|0.3|3|DTIN-v2 w/o seq-norm|internal,0.34957969961735397,,True,78.2,,1500.0,DTIN-v2 w/o seq-norm,ECG200 MCAR 0.3
+Siemens,MCAR,0.3,4,"Transformer (no mask input, no seq-norm)",internal,"Siemens|MCAR|0.3|4|Transformer (no mask input, no seq-norm)|internal",0.5464617534881528,0.23735814539347644,True,117.5,,11500.0,"Transformer (no mask input, no seq-norm)",Siemens MCAR 0.3
+Siemens,MNAR,0.3,1,Linear regression,global,Siemens|MNAR|0.3|1|Linear regression|global,0.4597641975830541,0.4476494114317812,True,0.4,,,Linear regression,Siemens MNAR 0.3
+Siemens,MAR,0.3,3,DTIN-v2 w/o seq-norm,internal,Siemens|MAR|0.3|3|DTIN-v2 w/o seq-norm|internal,0.7260379869898888,0.2708212727810085,True,373.9,,16500.0,DTIN-v2 w/o seq-norm,Siemens MAR 0.3
+Siemens,MAR,0.3,4,"Transformer (no mask input, no seq-norm)",internal,"Siemens|MAR|0.3|4|Transformer (no mask input, no seq-norm)|internal",0.32934861000893884,0.2504114628643539,True,344.4,,14000.0,"Transformer (no mask input, no seq-norm)",Siemens MAR 0.3
+Siemens,GAP,30.0,0,SAITS,seq,Siemens|GAP|30|0|SAITS|seq,0.28388952360443925,0.2733463591220433,True,41.6,7.280924929196346,,SAITS-seq,Siemens GAP 30
+Siemens,MAR,0.3,0,Linear regression,global,Siemens|MAR|0.3|0|Linear regression|global,0.3539673546863254,0.3324963993098616,True,11.9,,,Linear regression,Siemens MAR 0.3
+Siemens,GAP,30.0,1,DTIN-v2 w/o seq-norm,internal,Siemens|GAP|30|1|DTIN-v2 w/o seq-norm|internal,0.49723918335028955,0.2548230147206656,True,187.0,,6500.0,DTIN-v2 w/o seq-norm,Siemens GAP 30
+Siemens,MAR,0.3,1,KNN,global,Siemens|MAR|0.3|1|KNN|global,0.6131737739096491,0.3269407345056211,True,17.6,,,KNN-global,Siemens MAR 0.3
+Siemens,MCAR,0.3,2,DTIN-v2 (mask input + seq-norm),internal,Siemens|MCAR|0.3|2|DTIN-v2 (mask input + seq-norm)|internal,0.2898192478476372,0.2198019643679375,True,67.4,,5000.0,DTIN-v2 (mask input + seq-norm),Siemens MCAR 0.3
+ECG200,MCAR,0.3,4,SAITS,global,ECG200|MCAR|0.3|4|SAITS|global,0.3739941885988871,,True,14.1,0.2364811253308055,,SAITS-global,ECG200 MCAR 0.3
+Siemens,MCAR,0.3,2,BRITS,global,Siemens|MCAR|0.3|2|BRITS|global,0.5235584644879658,0.22933955607598033,True,5893.6,0.19481994099875577,,BRITS-global,Siemens MCAR 0.3
+Siemens,MNAR,0.3,3,BRITS,seq,Siemens|MNAR|0.3|3|BRITS|seq,0.36296421537220785,0.34748795233905616,True,8413.8,15.578750618659921,,BRITS-seq,Siemens MNAR 0.3
+ECG200,MCAR,0.3,2,DTIN-v2 (mask input + seq-norm),internal,ECG200|MCAR|0.3|2|DTIN-v2 (mask input + seq-norm)|internal,0.3876015943875512,,True,82.0,,1500.0,DTIN-v2 (mask input + seq-norm),ECG200 MCAR 0.3
+ECG200,MCAR,0.3,3,DTIN-v2 w/o mask input,internal,ECG200|MCAR|0.3|3|DTIN-v2 w/o mask input|internal,0.46674367143320356,,True,73.3,,5250.0,DTIN-v2 w/o mask input,ECG200 MCAR 0.3
+Siemens,MAR,0.3,3,"Transformer (no mask input, no seq-norm)",internal,"Siemens|MAR|0.3|3|Transformer (no mask input, no seq-norm)|internal",0.7603618857053668,0.2620564518966459,True,298.6,,12250.0,"Transformer (no mask input, no seq-norm)",Siemens MAR 0.3
+Siemens,MCAR,0.3,1,SAITS,global,Siemens|MCAR|0.3|1|SAITS|global,0.49547148797157714,0.25288657978196205,True,69.1,0.21095000223124472,,SAITS-global,Siemens MCAR 0.3
+Siemens,GAP,30.0,1,KNN,global,Siemens|GAP|30|1|KNN|global,0.5819725102698813,0.3403139681821581,True,13.6,,,KNN-global,Siemens GAP 30
+ECG200,MCAR,0.3,2,"Transformer (no mask input, no seq-norm)",internal,"ECG200|MCAR|0.3|2|Transformer (no mask input, no seq-norm)|internal",0.3714422811053531,,True,55.9,,1750.0,"Transformer (no mask input, no seq-norm)",ECG200 MCAR 0.3
+Siemens,GAP,30.0,0,"Transformer (no mask input, no seq-norm)",internal,"Siemens|GAP|30|0|Transformer (no mask input, no seq-norm)|internal",0.5258942382750699,0.25229825651609644,True,239.6,,9500.0,"Transformer (no mask input, no seq-norm)",Siemens GAP 30
+Siemens,GAP,30.0,2,BRITS,global,Siemens|GAP|30|2|BRITS|global,0.5950690760249622,0.2893293503458801,True,14655.9,0.2627207788492916,,BRITS-global,Siemens GAP 30
+Siemens,GAP,30.0,1,SAITS,seq,Siemens|GAP|30|1|SAITS|seq,0.32581961444690044,0.27020785042872597,True,65.9,7.138886013341357,,SAITS-seq,Siemens GAP 30
+Siemens,MNAR,0.3,3,DTIN-v2 w/o mask input,internal,Siemens|MNAR|0.3|3|DTIN-v2 w/o mask input|internal,0.35579438780546296,0.32837546824627073,True,167.1,,5250.0,DTIN-v2 w/o mask input,Siemens MNAR 0.3
+Siemens,MCAR,0.3,0,BRITS,seq,Siemens|MCAR|0.3|0|BRITS|seq,0.31464521746911644,0.22616477381193567,True,5504.5,3.336433532533005,,BRITS-seq,Siemens MCAR 0.3
+Siemens,MCAR,0.3,3,DTIN-v2 w/o mask input,internal,Siemens|MCAR|0.3|3|DTIN-v2 w/o mask input|internal,0.2964646496160868,0.22141199082129784,True,81.5,,6250.0,DTIN-v2 w/o mask input,Siemens MCAR 0.3
+ECG200,MCAR,0.3,1,Linear regression,global,ECG200|MCAR|0.3|1|Linear regression|global,0.9882405664667352,,True,0.0,,,Linear regression,ECG200 MCAR 0.3
+Siemens,MNAR,0.3,2,BRITS,global,Siemens|MNAR|0.3|2|BRITS|global,0.5315579237682017,0.3492854690634463,True,14708.1,0.32909604924403263,,BRITS-global,Siemens MNAR 0.3
+Siemens,MAR,0.3,4,SAITS,seq,Siemens|MAR|0.3|4|SAITS|seq,0.2412979720112995,0.23880972435541228,True,208.6,1.9852482816929766,,SAITS-seq,Siemens MAR 0.3
+Siemens,GAP,30.0,2,"Transformer (no mask input, no seq-norm)",internal,"Siemens|GAP|30|2|Transformer (no mask input, no seq-norm)|internal",0.518343771881437,0.27912648642395793,True,235.6,,9000.0,"Transformer (no mask input, no seq-norm)",Siemens GAP 30
+Siemens,MNAR,0.3,0,SAITS,seq,Siemens|MNAR|0.3|0|SAITS|seq,0.36113127461845473,0.35614689980177655,True,196.8,4.526398122742705,,SAITS-seq,Siemens MNAR 0.3
+Siemens,MAR,0.3,0,DTIN-v2 w/o mask input,internal,Siemens|MAR|0.3|0|DTIN-v2 w/o mask input|internal,0.28690811268334615,0.23059664235097582,True,109.5,,7750.0,DTIN-v2 w/o mask input,Siemens MAR 0.3
+Siemens,MAR,0.3,0,KNN,seq,Siemens|MAR|0.3|0|KNN|seq,0.4154229287243322,0.3165257181651322,True,17.3,,,KNN-seq,Siemens MAR 0.3
+Siemens,MNAR,0.3,3,SAITS,global,Siemens|MNAR|0.3|3|SAITS|global,0.5677086263801415,0.41871470366917507,True,108.2,0.37767610226068793,,SAITS-global,Siemens MNAR 0.3
+Siemens,MNAR,0.3,1,SAITS,global,Siemens|MNAR|0.3|1|SAITS|global,0.5765881698009181,0.42350599839289194,True,108.8,0.37731741817520736,,SAITS-global,Siemens MNAR 0.3
+Siemens,MCAR,0.3,3,BRITS,global,Siemens|MCAR|0.3|3|BRITS|global,0.5357036694453738,0.23208204147046438,True,5938.3,0.2185995375509473,,BRITS-global,Siemens MCAR 0.3
+Siemens,MCAR,0.3,4,SAITS,seq,Siemens|MCAR|0.3|4|SAITS|seq,0.2389710100336327,0.22152059199525265,True,90.5,4.452518889093337,,SAITS-seq,Siemens MCAR 0.3
+Siemens,MCAR,0.3,0,Linear regression,global,Siemens|MCAR|0.3|0|Linear regression|global,0.37013461120659613,0.34177748330302693,True,1.5,,,Linear regression,Siemens MCAR 0.3
+Siemens,MCAR,0.3,3,DTIN-v2 (mask input + seq-norm),internal,Siemens|MCAR|0.3|3|DTIN-v2 (mask input + seq-norm)|internal,0.28767518272925025,0.220949910741489,True,54.7,,3500.0,DTIN-v2 (mask input + seq-norm),Siemens MCAR 0.3
+Siemens,MAR,0.3,2,KNN,seq,Siemens|MAR|0.3|2|KNN|seq,0.38535621098131917,0.3805399806267735,True,18.3,,,KNN-seq,Siemens MAR 0.3
+ECG200,MCAR,0.3,1,BRITS,global,ECG200|MCAR|0.3|1|BRITS|global,0.3908021602010532,,True,658.0,0.39558424773350975,,BRITS-global,ECG200 MCAR 0.3
+Siemens,GAP,30.0,2,Linear regression,global,Siemens|GAP|30|2|Linear regression|global,0.38594648185497654,0.3417124730811548,True,1.1,,,Linear regression,Siemens GAP 30
+Siemens,GAP,30.0,4,Linear regression,global,Siemens|GAP|30|4|Linear regression|global,0.35450919691525445,0.3410593841038335,True,1.0,,,Linear regression,Siemens GAP 30
+Siemens,MAR,0.3,1,DTIN-v2 w/o seq-norm,internal,Siemens|MAR|0.3|1|DTIN-v2 w/o seq-norm|internal,0.5042176965881459,0.2756824930899175,True,99.8,,7500.0,DTIN-v2 w/o seq-norm,Siemens MAR 0.3
+Siemens,MAR,0.3,3,BRITS,seq,Siemens|MAR|0.3|3|BRITS|seq,0.3702494149249058,0.23176393371506537,True,14705.7,4.605696478146489,,BRITS-seq,Siemens MAR 0.3
+Siemens,GAP,30.0,2,SAITS,seq,Siemens|GAP|30|2|SAITS|seq,0.29431979959231985,0.27741363985913364,True,31.1,5.077515480356963,,SAITS-seq,Siemens GAP 30
+ECG200,MCAR,0.3,4,KNN,seq,ECG200|MCAR|0.3|4|KNN|seq,0.4159604934463602,,True,0.0,,,KNN-seq,ECG200 MCAR 0.3
+Siemens,MNAR,0.3,4,BRITS,seq,Siemens|MNAR|0.3|4|BRITS|seq,0.3828544534064479,0.3516674758408785,True,14103.1,4.077569277922982,,BRITS-seq,Siemens MNAR 0.3
+Siemens,MNAR,0.3,4,SAITS,seq,Siemens|MNAR|0.3|4|SAITS|seq,0.3616954979741358,0.35369010446883503,True,149.6,4.095442724621014,,SAITS-seq,Siemens MNAR 0.3
+Siemens,GAP,30.0,1,SAITS,global,Siemens|GAP|30|1|SAITS|global,0.46546236860403706,0.28514493201878033,True,216.5,0.2237545202020412,,SAITS-global,Siemens GAP 30
+Siemens,MNAR,0.3,4,BRITS,global,Siemens|MNAR|0.3|4|BRITS|global,0.5410092138597526,0.35261813538944065,True,14667.8,0.3323754813122819,,BRITS-global,Siemens MNAR 0.3
+ECG200,MCAR,0.3,0,SAITS,global,ECG200|MCAR|0.3|0|SAITS|global,0.3753742126849201,,True,16.4,0.2456294832628568,,SAITS-global,ECG200 MCAR 0.3
+Siemens,MAR,0.3,0,SAITS,seq,Siemens|MAR|0.3|0|SAITS|seq,0.264004954350167,0.2278670963200058,True,111.5,1.981839260496483,,SAITS-seq,Siemens MAR 0.3
+Siemens,MCAR,0.3,1,BRITS,seq,Siemens|MCAR|0.3|1|BRITS|seq,0.24927867572825904,0.2163703408276283,True,5948.6,2.8428019160171174,,BRITS-seq,Siemens MCAR 0.3
+Siemens,GAP,30.0,0,KNN,global,Siemens|GAP|30|0|KNN|global,0.6354160708042144,0.33727863334789354,True,14.0,,,KNN-global,Siemens GAP 30
+ECG200,MCAR,0.3,2,BRITS,seq,ECG200|MCAR|0.3|2|BRITS|seq,0.34532262969411903,,True,646.8,0.3306758269142942,,BRITS-seq,ECG200 MCAR 0.3
+Siemens,MCAR,0.3,1,"Transformer (no mask input, no seq-norm)",internal,"Siemens|MCAR|0.3|1|Transformer (no mask input, no seq-norm)|internal",0.5046242645622139,0.25536573349583225,True,138.0,,14000.0,"Transformer (no mask input, no seq-norm)",Siemens MCAR 0.3
+ECG200,MCAR,0.3,0,DTIN-v2 w/o mask input,internal,ECG200|MCAR|0.3|0|DTIN-v2 w/o mask input|internal,0.45058272568748853,,True,86.2,,1750.0,DTIN-v2 w/o mask input,ECG200 MCAR 0.3
+Siemens,MAR,0.3,1,BRITS,global,Siemens|MAR|0.3|1|BRITS|global,0.5403945281445359,0.22555925039309277,True,6026.4,0.1799674796452057,,BRITS-global,Siemens MAR 0.3
+Siemens,MCAR,0.3,0,KNN,global,Siemens|MCAR|0.3|0|KNN|global,0.5791263529812354,0.3366539625886582,True,7.5,,,KNN-global,Siemens MCAR 0.3
+Siemens,MCAR,0.3,1,DTIN-v2 w/o seq-norm,internal,Siemens|MCAR|0.3|1|DTIN-v2 w/o seq-norm|internal,0.4972788522306532,0.2898957999219782,True,136.1,,14250.0,DTIN-v2 w/o seq-norm,Siemens MCAR 0.3
+Siemens,MAR,0.3,1,Linear regression,global,Siemens|MAR|0.3|1|Linear regression|global,0.34489836443106164,0.32403309036615713,True,11.4,,,Linear regression,Siemens MAR 0.3
+Siemens,MNAR,0.3,4,KNN,seq,Siemens|MNAR|0.3|4|KNN|seq,0.41522896393569936,0.4007172765358075,True,11.1,,,KNN-seq,Siemens MNAR 0.3
+ECG200,MCAR,0.3,2,DTIN-v2 w/o seq-norm,internal,ECG200|MCAR|0.3|2|DTIN-v2 w/o seq-norm|internal,0.3723363500161954,,True,38.3,,1500.0,DTIN-v2 w/o seq-norm,ECG200 MCAR 0.3
+Siemens,GAP,30.0,3,BRITS,global,Siemens|GAP|30|3|BRITS|global,0.5806845663618103,0.2801300676222669,True,14214.7,0.24850244490896933,,BRITS-global,Siemens GAP 30
+Siemens,MAR,0.3,4,DTIN-v2 w/o seq-norm,internal,Siemens|MAR|0.3|4|DTIN-v2 w/o seq-norm|internal,0.33023939439910693,0.26615061442071725,True,261.3,,10000.0,DTIN-v2 w/o seq-norm,Siemens MAR 0.3
+Siemens,MCAR,0.3,4,Linear regression,global,Siemens|MCAR|0.3|4|Linear regression|global,0.36339588813176826,0.33739011606498787,True,0.3,,,Linear regression,Siemens MCAR 0.3
+Siemens,GAP,30.0,3,DTIN-v2 (mask input + seq-norm),internal,Siemens|GAP|30|3|DTIN-v2 (mask input + seq-norm)|internal,0.27817165619951323,0.2522916652695614,True,170.9,,5250.0,DTIN-v2 (mask input + seq-norm),Siemens GAP 30
+Siemens,MCAR,0.3,4,DTIN-v2 (mask input + seq-norm),internal,Siemens|MCAR|0.3|4|DTIN-v2 (mask input + seq-norm)|internal,0.28568246145327003,0.21829052432568297,True,70.1,,5500.0,DTIN-v2 (mask input + seq-norm),Siemens MCAR 0.3
+Siemens,GAP,30.0,0,DTIN-v2 w/o mask input,internal,Siemens|GAP|30|0|DTIN-v2 w/o mask input|internal,0.2778838205694308,0.24731443344224316,True,179.7,,5750.0,DTIN-v2 w/o mask input,Siemens GAP 30
+Siemens,GAP,30.0,3,SAITS,seq,Siemens|GAP|30|3|SAITS|seq,0.2963576183007417,0.2755582976598372,True,35.0,8.519934209286625,,SAITS-seq,Siemens GAP 30
+Siemens,MAR,0.3,2,KNN,global,Siemens|MAR|0.3|2|KNN|global,0.4229410670641593,0.39720221382512033,True,19.7,,,KNN-global,Siemens MAR 0.3
+Siemens,GAP,30.0,4,DTIN-v2 w/o seq-norm,internal,Siemens|GAP|30|4|DTIN-v2 w/o seq-norm|internal,0.5333620943581115,0.3099513552604218,True,188.0,,6500.0,DTIN-v2 w/o seq-norm,Siemens GAP 30
+Siemens,MCAR,0.3,4,KNN,seq,Siemens|MCAR|0.3|4|KNN|seq,0.42175195309395985,0.3132696282967171,True,7.1,,,KNN-seq,Siemens MCAR 0.3
+Siemens,GAP,30.0,3,"Transformer (no mask input, no seq-norm)",internal,"Siemens|GAP|30|3|Transformer (no mask input, no seq-norm)|internal",0.5118930380153037,0.2730502896376322,True,227.1,,8500.0,"Transformer (no mask input, no seq-norm)",Siemens GAP 30
+ECG200,MCAR,0.3,3,SAITS,global,ECG200|MCAR|0.3|3|SAITS|global,0.4269396883347988,,True,5.0,0.2515652076271658,,SAITS-global,ECG200 MCAR 0.3
+Siemens,MAR,0.3,1,SAITS,seq,Siemens|MAR|0.3|1|SAITS|seq,0.27100497237308274,0.21468693825949445,True,95.7,4.076917440974844,,SAITS-seq,Siemens MAR 0.3
+ECG200,MCAR,0.3,3,KNN,global,ECG200|MCAR|0.3|3|KNN|global,0.38917300680609745,,True,0.0,,,KNN-global,ECG200 MCAR 0.3
+ECG200,MCAR,0.3,4,BRITS,global,ECG200|MCAR|0.3|4|BRITS|global,0.30139145806845863,,True,1103.5,0.24790526557235207,,BRITS-global,ECG200 MCAR 0.3
+Siemens,MNAR,0.3,2,Linear regression,global,Siemens|MNAR|0.3|2|Linear regression|global,0.45124259195743543,0.4452910636165174,True,0.4,,,Linear regression,Siemens MNAR 0.3
+Siemens,MCAR,0.3,0,DTIN-v2 (mask input + seq-norm),internal,Siemens|MCAR|0.3|0|DTIN-v2 (mask input + seq-norm)|internal,0.28713688484127037,0.22594984597146586,True,104.0,,8500.0,DTIN-v2 (mask input + seq-norm),Siemens MCAR 0.3
+Siemens,GAP,30.0,1,BRITS,global,Siemens|GAP|30|1|BRITS|global,0.5483210478324534,0.2894651132617133,True,14129.3,0.24291006340009635,,BRITS-global,Siemens GAP 30
+Siemens,GAP,30.0,1,BRITS,seq,Siemens|GAP|30|1|BRITS|seq,0.34604698399412887,0.27356225995153843,True,6649.6,7.143176345373268,,BRITS-seq,Siemens GAP 30
+Siemens,MNAR,0.3,1,KNN,seq,Siemens|MNAR|0.3|1|KNN|seq,0.42202652726242734,0.40170590645641063,True,10.9,,,KNN-seq,Siemens MNAR 0.3
+Siemens,MCAR,0.3,0,SAITS,global,Siemens|MCAR|0.3|0|SAITS|global,0.4689590767040726,0.250332849976128,True,70.7,0.2092119103901923,,SAITS-global,Siemens MCAR 0.3
+Siemens,GAP,30.0,1,"Transformer (no mask input, no seq-norm)",internal,"Siemens|GAP|30|1|Transformer (no mask input, no seq-norm)|internal",0.481785118051407,0.2624450005471405,True,333.9,,13750.0,"Transformer (no mask input, no seq-norm)",Siemens GAP 30
+Siemens,MNAR,0.3,4,Linear regression,global,Siemens|MNAR|0.3|4|Linear regression|global,0.45371738634554465,0.4466289694130078,True,0.4,,,Linear regression,Siemens MNAR 0.3
+ECG200,MCAR,0.3,1,SAITS,global,ECG200|MCAR|0.3|1|SAITS|global,0.40398129085804896,,True,7.6,0.22605314110773006,,SAITS-global,ECG200 MCAR 0.3
+Siemens,GAP,30.0,0,KNN,seq,Siemens|GAP|30|0|KNN|seq,0.35650053209950533,0.3333085326112856,True,15.0,,,KNN-seq,Siemens GAP 30
+Siemens,MCAR,0.3,4,BRITS,seq,Siemens|MCAR|0.3|4|BRITS|seq,0.31029086723071747,0.22036964328979522,True,5076.3,4.438935862058128,,BRITS-seq,Siemens MCAR 0.3
+Siemens,GAP,30.0,4,KNN,global,Siemens|GAP|30|4|KNN|global,0.641943111823627,0.34042721384850616,True,9.5,,,KNN-global,Siemens GAP 30
+Siemens,MCAR,0.3,0,DTIN-v2 w/o mask input,internal,Siemens|MCAR|0.3|0|DTIN-v2 w/o mask input|internal,0.28060049543383814,0.22427649823718718,True,86.5,,6500.0,DTIN-v2 w/o mask input,Siemens MCAR 0.3
+Siemens,MCAR,0.3,2,DTIN-v2 w/o seq-norm,internal,Siemens|MCAR|0.3|2|DTIN-v2 w/o seq-norm|internal,0.4952687033591029,0.2711255461174594,True,134.6,,13500.0,DTIN-v2 w/o seq-norm,Siemens MCAR 0.3
+ECG200,MCAR,0.3,4,DTIN-v2 w/o mask input,internal,ECG200|MCAR|0.3|4|DTIN-v2 w/o mask input|internal,0.44879001662600543,,True,140.9,,4750.0,DTIN-v2 w/o mask input,ECG200 MCAR 0.3
+Siemens,MAR,0.3,1,BRITS,seq,Siemens|MAR|0.3|1|BRITS|seq,0.2915507360076205,0.21369384380033946,True,5596.4,4.0603391034722165,,BRITS-seq,Siemens MAR 0.3
+Siemens,MAR,0.3,4,KNN,global,Siemens|MAR|0.3|4|KNN|global,0.41953438460307146,0.3455651333726548,True,21.1,,,KNN-global,Siemens MAR 0.3
+Siemens,MNAR,0.3,3,BRITS,global,Siemens|MNAR|0.3|3|BRITS|global,0.55906209183149,0.34787350518554844,True,14651.0,0.3244241296283783,,BRITS-global,Siemens MNAR 0.3
+Siemens,MNAR,0.3,1,"Transformer (no mask input, no seq-norm)",internal,"Siemens|MNAR|0.3|1|Transformer (no mask input, no seq-norm)|internal",0.5307432811007786,0.3526613019812422,True,289.4,,12500.0,"Transformer (no mask input, no seq-norm)",Siemens MNAR 0.3
+Siemens,GAP,30.0,4,"Transformer (no mask input, no seq-norm)",internal,"Siemens|GAP|30|4|Transformer (no mask input, no seq-norm)|internal",0.5334289651569699,0.27422099762231894,True,257.0,,15750.0,"Transformer (no mask input, no seq-norm)",Siemens GAP 30
+Siemens,MCAR,0.3,2,SAITS,global,Siemens|MCAR|0.3|2|SAITS|global,0.4984718489452923,0.28873773781267204,True,111.2,0.19758340296306154,,SAITS-global,Siemens MCAR 0.3
+ECG200,MCAR,0.3,0,DTIN-v2 w/o seq-norm,internal,ECG200|MCAR|0.3|0|DTIN-v2 w/o seq-norm|internal,0.32991046575534927,,True,85.7,,4250.0,DTIN-v2 w/o seq-norm,ECG200 MCAR 0.3
+Siemens,MNAR,0.3,3,DTIN-v2 (mask input + seq-norm),internal,Siemens|MNAR|0.3|3|DTIN-v2 (mask input + seq-norm)|internal,0.3468495816167307,0.32444033111797166,True,169.2,,5250.0,DTIN-v2 (mask input + seq-norm),Siemens MNAR 0.3
+Siemens,MCAR,0.3,2,KNN,seq,Siemens|MCAR|0.3|2|KNN|seq,0.38040798248358654,0.31499208800212064,True,6.5,,,KNN-seq,Siemens MCAR 0.3
+Siemens,MAR,0.3,3,DTIN-v2 w/o mask input,internal,Siemens|MAR|0.3|3|DTIN-v2 w/o mask input|internal,0.32239695070064744,0.2504308337059105,True,242.1,,8250.0,DTIN-v2 w/o mask input,Siemens MAR 0.3
+Siemens,MNAR,0.3,0,SAITS,global,Siemens|MNAR|0.3|0|SAITS|global,0.5735325174825255,0.4255826760866272,True,119.3,0.3856670566932744,,SAITS-global,Siemens MNAR 0.3
+ECG200,MCAR,0.3,4,"Transformer (no mask input, no seq-norm)",internal,"ECG200|MCAR|0.3|4|Transformer (no mask input, no seq-norm)|internal",0.36148906617309917,,True,154.0,,15000.0,"Transformer (no mask input, no seq-norm)",ECG200 MCAR 0.3
+Siemens,MAR,0.3,2,DTIN-v2 w/o mask input,internal,Siemens|MAR|0.3|2|DTIN-v2 w/o mask input|internal,0.33809783907625746,0.3028622374106499,True,79.4,,4000.0,DTIN-v2 w/o mask input,Siemens MAR 0.3
+ECG200,MCAR,0.3,1,SAITS,seq,ECG200|MCAR|0.3|1|SAITS|seq,0.42253113200378506,,True,11.0,0.2711137099433929,,SAITS-seq,ECG200 MCAR 0.3
+Siemens,MAR,0.3,1,DTIN-v2 (mask input + seq-norm),internal,Siemens|MAR|0.3|1|DTIN-v2 (mask input + seq-norm)|internal,0.2812308261247356,0.22833549829343644,True,93.3,,6250.0,DTIN-v2 (mask input + seq-norm),Siemens MAR 0.3
+Siemens,GAP,30.0,4,BRITS,seq,Siemens|GAP|30|4|BRITS|seq,0.290559122178363,0.2688284082883666,True,5989.5,6.895460917836029,,BRITS-seq,Siemens GAP 30
+Siemens,GAP,30.0,1,DTIN-v2 (mask input + seq-norm),internal,Siemens|GAP|30|1|DTIN-v2 (mask input + seq-norm)|internal,0.32386481313863674,0.2517933959105381,True,145.9,,4000.0,DTIN-v2 (mask input + seq-norm),Siemens GAP 30
+Siemens,MNAR,0.3,0,"Transformer (no mask input, no seq-norm)",internal,"Siemens|MNAR|0.3|0|Transformer (no mask input, no seq-norm)|internal",0.5273111604923947,0.35311706996117564,True,375.7,,16250.0,"Transformer (no mask input, no seq-norm)",Siemens MNAR 0.3
+Siemens,MAR,0.3,3,KNN,seq,Siemens|MAR|0.3|3|KNN|seq,0.4815135296452039,0.3251221383957475,True,17.1,,,KNN-seq,Siemens MAR 0.3
+ECG200,MCAR,0.3,4,BRITS,seq,ECG200|MCAR|0.3|4|BRITS|seq,0.3688475314532525,,True,826.7,0.33281301850789685,,BRITS-seq,ECG200 MCAR 0.3
+ECG200,MCAR,0.3,1,DTIN-v2 w/o mask input,internal,ECG200|MCAR|0.3|1|DTIN-v2 w/o mask input|internal,0.5016471999353594,,True,214.7,,14500.0,DTIN-v2 w/o mask input,ECG200 MCAR 0.3
+Siemens,MCAR,0.3,1,Linear regression,global,Siemens|MCAR|0.3|1|Linear regression|global,0.3546714630781306,0.33684451638006757,True,0.3,,,Linear regression,Siemens MCAR 0.3
+Siemens,MNAR,0.3,1,DTIN-v2 w/o seq-norm,internal,Siemens|MNAR|0.3|1|DTIN-v2 w/o seq-norm|internal,0.5317122877340182,0.359014809035853,True,258.9,,11250.0,DTIN-v2 w/o seq-norm,Siemens MNAR 0.3
+Siemens,MNAR,0.3,0,DTIN-v2 (mask input + seq-norm),internal,Siemens|MNAR|0.3|0|DTIN-v2 (mask input + seq-norm)|internal,0.3636592584787205,0.3350305581832378,True,119.8,,3000.0,DTIN-v2 (mask input + seq-norm),Siemens MNAR 0.3
+Siemens,GAP,30.0,0,BRITS,seq,Siemens|GAP|30|0|BRITS|seq,0.28707943309128886,0.26875810847396203,True,5627.6,7.277278699753044,,BRITS-seq,Siemens GAP 30
+Siemens,MCAR,0.3,2,"Transformer (no mask input, no seq-norm)",internal,"Siemens|MCAR|0.3|2|Transformer (no mask input, no seq-norm)|internal",0.5130212538576244,0.23939786105584773,True,113.6,,10750.0,"Transformer (no mask input, no seq-norm)",Siemens MCAR 0.3
+Siemens,GAP,30.0,1,Linear regression,global,Siemens|GAP|30|1|Linear regression|global,0.365905785879991,0.34336569094359554,True,1.0,,,Linear regression,Siemens GAP 30
+Siemens,MCAR,0.3,2,BRITS,seq,Siemens|MCAR|0.3|2|BRITS|seq,0.28312839405430273,0.2229785843721319,True,4681.3,4.0064501816413935,,BRITS-seq,Siemens MCAR 0.3
+Siemens,MNAR,0.3,3,SAITS,seq,Siemens|MNAR|0.3|3|SAITS|seq,0.34863527244044956,0.3479764670073317,True,213.7,15.57731422552176,,SAITS-seq,Siemens MNAR 0.3
+Siemens,MNAR,0.3,2,BRITS,seq,Siemens|MNAR|0.3|2|BRITS|seq,0.37681682566132874,0.3489300816277531,True,10591.5,0.6748155646145199,,BRITS-seq,Siemens MNAR 0.3
+Siemens,MAR,0.3,1,SAITS,global,Siemens|MAR|0.3|1|SAITS|global,0.5034436938573891,0.23728419525071948,True,83.0,0.17820318502987603,,SAITS-global,Siemens MAR 0.3
+Siemens,MCAR,0.3,3,DTIN-v2 w/o seq-norm,internal,Siemens|MCAR|0.3|3|DTIN-v2 w/o seq-norm|internal,0.5054471778871116,0.277072558637141,True,129.7,,13250.0,DTIN-v2 w/o seq-norm,Siemens MCAR 0.3
+Siemens,MCAR,0.3,3,Linear regression,global,Siemens|MCAR|0.3|3|Linear regression|global,0.360685417286965,0.33807419648373666,True,0.3,,,Linear regression,Siemens MCAR 0.3
+Siemens,MNAR,0.3,2,SAITS,seq,Siemens|MNAR|0.3|2|SAITS|seq,0.3586746567995887,0.34783081746251293,True,229.4,0.6590680882655396,,SAITS-seq,Siemens MNAR 0.3
+ECG200,MCAR,0.3,1,DTIN-v2 w/o seq-norm,internal,ECG200|MCAR|0.3|1|DTIN-v2 w/o seq-norm|internal,0.33988860242637586,,True,92.1,,4750.0,DTIN-v2 w/o seq-norm,ECG200 MCAR 0.3
+Siemens,MNAR,0.3,1,DTIN-v2 w/o mask input,internal,Siemens|MNAR|0.3|1|DTIN-v2 w/o mask input|internal,0.3597684449651079,0.3403621473148324,True,145.5,,4250.0,DTIN-v2 w/o mask input,Siemens MNAR 0.3
+ECG200,MCAR,0.3,4,DTIN-v2 w/o seq-norm,internal,ECG200|MCAR|0.3|4|DTIN-v2 w/o seq-norm|internal,0.3709038101536973,,True,83.7,,6000.0,DTIN-v2 w/o seq-norm,ECG200 MCAR 0.3
+ECG200,MCAR,0.3,2,SAITS,seq,ECG200|MCAR|0.3|2|SAITS|seq,0.40175614600531334,,True,10.2,0.24192715464857914,,SAITS-seq,ECG200 MCAR 0.3
+Siemens,MAR,0.3,2,DTIN-v2 (mask input + seq-norm),internal,Siemens|MAR|0.3|2|DTIN-v2 (mask input + seq-norm)|internal,0.3404738201877459,0.33241554572111986,True,91.7,,5250.0,DTIN-v2 (mask input + seq-norm),Siemens MAR 0.3
+Siemens,MAR,0.3,2,DTIN-v2 w/o seq-norm,internal,Siemens|MAR|0.3|2|DTIN-v2 w/o seq-norm|internal,0.31215699863979024,0.28865018097876716,True,176.8,,14500.0,DTIN-v2 w/o seq-norm,Siemens MAR 0.3
+Siemens,MCAR,0.3,2,KNN,global,Siemens|MCAR|0.3|2|KNN|global,0.595509965194033,0.33347581805160553,True,7.6,,,KNN-global,Siemens MCAR 0.3
+Siemens,MAR,0.3,4,KNN,seq,Siemens|MAR|0.3|4|KNN|seq,0.3408083306965794,0.32359916354992496,True,20.3,,,KNN-seq,Siemens MAR 0.3
+Siemens,GAP,30.0,3,KNN,global,Siemens|GAP|30|3|KNN|global,0.6215211531860939,0.3404099799835378,True,14.1,,,KNN-global,Siemens GAP 30
+Siemens,MNAR,0.3,2,DTIN-v2 w/o seq-norm,internal,Siemens|MNAR|0.3|2|DTIN-v2 w/o seq-norm|internal,0.4922348110142713,0.3508632109384485,True,282.9,,11750.0,DTIN-v2 w/o seq-norm,Siemens MNAR 0.3
+Siemens,MCAR,0.3,1,BRITS,global,Siemens|MCAR|0.3|1|BRITS|global,0.527696187937987,0.22306730711040332,True,6124.1,0.20580389713074007,,BRITS-global,Siemens MCAR 0.3
+ECG200,MCAR,0.3,3,SAITS,seq,ECG200|MCAR|0.3|3|SAITS|seq,0.4293863509097383,,True,9.9,0.2631750741505169,,SAITS-seq,ECG200 MCAR 0.3
+ECG200,MCAR,0.3,0,KNN,seq,ECG200|MCAR|0.3|0|KNN|seq,0.4075745492154932,,True,0.6,,,KNN-seq,ECG200 MCAR 0.3
+Siemens,MAR,0.3,1,DTIN-v2 w/o mask input,internal,Siemens|MAR|0.3|1|DTIN-v2 w/o mask input|internal,0.30669450021517763,0.21908313644203847,True,99.3,,7000.0,DTIN-v2 w/o mask input,Siemens MAR 0.3
+Siemens,MNAR,0.3,0,BRITS,global,Siemens|MNAR|0.3|0|BRITS|global,0.5570473958160096,0.3568802812662527,True,14618.2,0.3308581205573075,,BRITS-global,Siemens MNAR 0.3
+Siemens,MCAR,0.3,1,DTIN-v2 (mask input + seq-norm),internal,Siemens|MCAR|0.3|1|DTIN-v2 (mask input + seq-norm)|internal,0.23323900116036544,0.21357762711251027,True,60.2,,4250.0,DTIN-v2 (mask input + seq-norm),Siemens MCAR 0.3
+Siemens,MAR,0.3,4,SAITS,global,Siemens|MAR|0.3|4|SAITS|global,0.32847242834226986,0.25248120286199405,True,163.5,0.23237222485996364,,SAITS-global,Siemens MAR 0.3
+Siemens,GAP,30.0,0,Linear regression,global,Siemens|GAP|30|0|Linear regression|global,0.3684781086266779,0.3395300725054888,True,1.1,,,Linear regression,Siemens GAP 30
+ECG200,MCAR,0.3,1,KNN,global,ECG200|MCAR|0.3|1|KNN|global,0.3837929029121297,,True,0.0,,,KNN-global,ECG200 MCAR 0.3
+Siemens,GAP,30.0,2,BRITS,seq,Siemens|GAP|30|2|BRITS|seq,0.29668997415518666,0.27208929708676693,True,7996.6,5.0711289724690785,,BRITS-seq,Siemens GAP 30
+Siemens,MAR,0.3,2,BRITS,seq,Siemens|MAR|0.3|2|BRITS|seq,0.34587993878520756,0.333570611281562,True,6758.2,10.0470942409924,,BRITS-seq,Siemens MAR 0.3
+Siemens,MNAR,0.3,2,SAITS,global,Siemens|MNAR|0.3|2|SAITS|global,0.5475883886419651,0.421615900886598,True,138.6,0.3821310963058962,,SAITS-global,Siemens MNAR 0.3
+Siemens,MAR,0.3,3,DTIN-v2 (mask input + seq-norm),internal,Siemens|MAR|0.3|3|DTIN-v2 (mask input + seq-norm)|internal,0.3384874997865854,0.24804435307239497,True,179.4,,5250.0,DTIN-v2 (mask input + seq-norm),Siemens MAR 0.3
+Siemens,MNAR,0.3,1,SAITS,seq,Siemens|MNAR|0.3|1|SAITS|seq,0.38595777008111243,0.35521967037749114,True,166.3,3.597388444309465,,SAITS-seq,Siemens MNAR 0.3
+Siemens,GAP,30.0,3,SAITS,global,Siemens|GAP|30|3|SAITS|global,0.5153959004689367,0.2628535695649991,True,114.0,0.2338585594584055,,SAITS-global,Siemens GAP 30
+Siemens,MCAR,0.3,3,KNN,seq,Siemens|MCAR|0.3|3|KNN|seq,0.36988214081700965,0.3132985861394032,True,6.3,,,KNN-seq,Siemens MCAR 0.3
+Siemens,MNAR,0.3,4,"Transformer (no mask input, no seq-norm)",internal,"Siemens|MNAR|0.3|4|Transformer (no mask input, no seq-norm)|internal",0.5114967088220314,0.3450167216726686,True,392.5,,18500.0,"Transformer (no mask input, no seq-norm)",Siemens MNAR 0.3
+Siemens,GAP,30.0,3,KNN,seq,Siemens|GAP|30|3|KNN|seq,0.3618965416518152,0.3344860687831148,True,14.2,,,KNN-seq,Siemens GAP 30
+Siemens,MNAR,0.3,2,KNN,seq,Siemens|MNAR|0.3|2|KNN|seq,0.4313862434382505,0.3997545352094411,True,11.6,,,KNN-seq,Siemens MNAR 0.3
+Siemens,MAR,0.3,0,"Transformer (no mask input, no seq-norm)",internal,"Siemens|MAR|0.3|0|Transformer (no mask input, no seq-norm)|internal",0.45523117810972363,0.2628974684472046,True,86.2,,6000.0,"Transformer (no mask input, no seq-norm)",Siemens MAR 0.3
+Siemens,MAR,0.3,2,Linear regression,global,Siemens|MAR|0.3|2|Linear regression|global,0.4075311167274562,0.4075920246529646,True,13.7,,,Linear regression,Siemens MAR 0.3
+Siemens,MAR,0.3,4,BRITS,global,Siemens|MAR|0.3|4|BRITS|global,0.3246673533070237,0.23922168953686385,True,14648.8,0.23016114334715948,,BRITS-global,Siemens MAR 0.3
+Siemens,MAR,0.3,3,Linear regression,global,Siemens|MAR|0.3|3|Linear regression|global,0.39935761325485813,0.3471035578349997,True,10.8,,,Linear regression,Siemens MAR 0.3
+Siemens,MCAR,0.3,1,KNN,seq,Siemens|MCAR|0.3|1|KNN|seq,0.3549273658195239,0.313203646647463,True,6.5,,,KNN-seq,Siemens MCAR 0.3
+Siemens,MAR,0.3,3,SAITS,seq,Siemens|MAR|0.3|3|SAITS|seq,0.3446912884238774,0.24165590336236298,True,182.1,4.605534135222601,,SAITS-seq,Siemens MAR 0.3
+Siemens,MAR,0.3,4,BRITS,seq,Siemens|MAR|0.3|4|BRITS|seq,0.2458488098193801,0.23532571537181435,True,14689.3,1.984916968332676,,BRITS-seq,Siemens MAR 0.3
+Siemens,MNAR,0.3,0,DTIN-v2 w/o mask input,internal,Siemens|MNAR|0.3|0|DTIN-v2 w/o mask input|internal,0.3911347864545359,0.3402650192018853,True,159.1,,4750.0,DTIN-v2 w/o mask input,Siemens MNAR 0.3
+Siemens,GAP,30.0,3,DTIN-v2 w/o seq-norm,internal,Siemens|GAP|30|3|DTIN-v2 w/o seq-norm|internal,0.5138029952072899,0.25238693190879774,True,116.1,,9750.0,DTIN-v2 w/o seq-norm,Siemens GAP 30
+Siemens,MAR,0.3,4,DTIN-v2 (mask input + seq-norm),internal,Siemens|MAR|0.3|4|DTIN-v2 (mask input + seq-norm)|internal,0.2605738990881544,0.24532233715169535,True,138.8,,4000.0,DTIN-v2 (mask input + seq-norm),Siemens MAR 0.3
+Siemens,MAR,0.3,4,DTIN-v2 w/o mask input,internal,Siemens|MAR|0.3|4|DTIN-v2 w/o mask input|internal,0.24925702784479295,0.23346466345923442,True,162.3,,4500.0,DTIN-v2 w/o mask input,Siemens MAR 0.3
+Siemens,GAP,30.0,1,DTIN-v2 w/o mask input,internal,Siemens|GAP|30|1|DTIN-v2 w/o mask input|internal,0.3353359346561976,0.2529744799570038,True,179.4,,5750.0,DTIN-v2 w/o mask input,Siemens GAP 30
+Siemens,GAP,30.0,2,SAITS,global,Siemens|GAP|30|2|SAITS|global,0.5394868884741612,0.2687574483121286,True,130.6,0.23120968598165165,,SAITS-global,Siemens GAP 30
+ECG200,MCAR,0.3,3,Linear regression,global,ECG200|MCAR|0.3|3|Linear regression|global,0.9729406380310585,,True,0.0,,,Linear regression,ECG200 MCAR 0.3
+Siemens,MNAR,0.3,3,DTIN-v2 w/o seq-norm,internal,Siemens|MNAR|0.3|3|DTIN-v2 w/o seq-norm|internal,0.5188621546885726,0.3493606958141664,True,255.2,,10250.0,DTIN-v2 w/o seq-norm,Siemens MNAR 0.3
+Siemens,MCAR,0.3,2,DTIN-v2 w/o mask input,internal,Siemens|MCAR|0.3|2|DTIN-v2 w/o mask input|internal,0.2580672372744523,0.2212196579647731,True,99.1,,8750.0,DTIN-v2 w/o mask input,Siemens MCAR 0.3
+Siemens,MNAR,0.3,0,KNN,global,Siemens|MNAR|0.3|0|KNN|global,0.6431958834965756,0.43716015062145025,True,10.7,,,KNN-global,Siemens MNAR 0.3
+ECG200,MCAR,0.3,0,BRITS,seq,ECG200|MCAR|0.3|0|BRITS|seq,0.36530724261584235,,True,1093.2,0.42802730329853966,,BRITS-seq,ECG200 MCAR 0.3
+ECG200,MCAR,0.3,1,KNN,seq,ECG200|MCAR|0.3|1|KNN|seq,0.40711554442277426,,True,0.0,,,KNN-seq,ECG200 MCAR 0.3
+Siemens,GAP,30.0,0,SAITS,global,Siemens|GAP|30|0|SAITS|global,0.5379348748061121,0.26469752165909827,True,118.1,0.23099126679722878,,SAITS-global,Siemens GAP 30
+Siemens,MCAR,0.3,0,SAITS,seq,Siemens|MCAR|0.3|0|SAITS|seq,0.26231003669565617,0.22855260292869375,True,120.6,3.3351677444125514,,SAITS-seq,Siemens MCAR 0.3
+Siemens,MAR,0.3,1,"Transformer (no mask input, no seq-norm)",internal,"Siemens|MAR|0.3|1|Transformer (no mask input, no seq-norm)|internal",0.5026306836380596,0.2617865277416508,True,154.2,,13750.0,"Transformer (no mask input, no seq-norm)",Siemens MAR 0.3
+Siemens,GAP,30.0,0,BRITS,global,Siemens|GAP|30|0|BRITS|global,0.6065009549686677,0.3004827610403907,True,14815.2,0.25544871707041644,,BRITS-global,Siemens GAP 30
+Siemens,GAP,30.0,4,BRITS,global,Siemens|GAP|30|4|BRITS|global,0.61773373721486,0.2918944365232714,True,14069.3,0.24371006744212537,,BRITS-global,Siemens GAP 30
+ECG200,MCAR,0.3,4,DTIN-v2 (mask input + seq-norm),internal,ECG200|MCAR|0.3|4|DTIN-v2 (mask input + seq-norm)|internal,0.45797968417901297,,True,142.1,,8500.0,DTIN-v2 (mask input + seq-norm),ECG200 MCAR 0.3
+Siemens,MAR,0.3,2,BRITS,global,Siemens|MAR|0.3|2|BRITS|global,0.33456056277318746,0.3067717945692369,True,6057.8,0.2054689333686322,,BRITS-global,Siemens MAR 0.3
+Siemens,MNAR,0.3,0,KNN,seq,Siemens|MNAR|0.3|0|KNN|seq,0.42487549919539963,0.40418097798939034,True,10.6,,,KNN-seq,Siemens MNAR 0.3
+Siemens,MAR,0.3,3,KNN,global,Siemens|MAR|0.3|3|KNN|global,0.8692083505987378,0.3398693448167196,True,17.9,,,KNN-global,Siemens MAR 0.3
+ECG200,MCAR,0.3,3,BRITS,seq,ECG200|MCAR|0.3|3|BRITS|seq,0.4057808966671616,,True,1392.3,0.38790875128378755,,BRITS-seq,ECG200 MCAR 0.3
+Siemens,MNAR,0.3,4,DTIN-v2 w/o mask input,internal,Siemens|MNAR|0.3|4|DTIN-v2 w/o mask input|internal,0.3456112380479453,0.3322900433955414,True,152.3,,4500.0,DTIN-v2 w/o mask input,Siemens MNAR 0.3
+Siemens,GAP,30.0,4,KNN,seq,Siemens|GAP|30|4|KNN|seq,0.36867318629412477,0.33433817081035666,True,13.7,,,KNN-seq,Siemens GAP 30
+Siemens,MAR,0.3,1,KNN,seq,Siemens|MAR|0.3|1|KNN|seq,0.4156350218261481,0.29770554016287165,True,17.9,,,KNN-seq,Siemens MAR 0.3
+ECG200,MCAR,0.3,0,SAITS,seq,ECG200|MCAR|0.3|0|SAITS|seq,0.39988021892244047,,True,7.0,0.32133786826735206,,SAITS-seq,ECG200 MCAR 0.3
+Siemens,MNAR,0.3,4,SAITS,global,Siemens|MNAR|0.3|4|SAITS|global,0.5532772777079042,0.4231357670553064,True,121.6,0.3838636117741471,,SAITS-global,Siemens MNAR 0.3
+Siemens,MCAR,0.3,0,BRITS,global,Siemens|MCAR|0.3|0|BRITS|global,0.5086925183462273,0.23364963275223405,True,8769.8,0.2056439497849726,,BRITS-global,Siemens MCAR 0.3
+ECG200,MCAR,0.3,3,DTIN-v2 (mask input + seq-norm),internal,ECG200|MCAR|0.3|3|DTIN-v2 (mask input + seq-norm)|internal,0.4529202815403164,,True,65.5,,4000.0,DTIN-v2 (mask input + seq-norm),ECG200 MCAR 0.3
+Siemens,MCAR,0.3,3,BRITS,seq,Siemens|MCAR|0.3|3|BRITS|seq,0.2989121713764103,0.22251532653266745,True,5947.6,3.341410801771208,,BRITS-seq,Siemens MCAR 0.3
+ECG200,MCAR,0.3,0,"Transformer (no mask input, no seq-norm)",internal,"ECG200|MCAR|0.3|0|Transformer (no mask input, no seq-norm)|internal",0.3517721090947799,,True,44.9,,2250.0,"Transformer (no mask input, no seq-norm)",ECG200 MCAR 0.3
+ECG200,MCAR,0.3,1,BRITS,seq,ECG200|MCAR|0.3|1|BRITS|seq,0.332866491977459,,True,987.4,0.3826436441925315,,BRITS-seq,ECG200 MCAR 0.3
+Siemens,GAP,30.0,2,DTIN-v2 w/o mask input,internal,Siemens|GAP|30|2|DTIN-v2 w/o mask input|internal,0.2694938113228738,0.24988759717721762,True,217.3,,7500.0,DTIN-v2 w/o mask input,Siemens GAP 30
+ECG200,MCAR,0.3,3,"Transformer (no mask input, no seq-norm)",internal,"ECG200|MCAR|0.3|3|Transformer (no mask input, no seq-norm)|internal",0.3680685890772417,,True,139.0,,8750.0,"Transformer (no mask input, no seq-norm)",ECG200 MCAR 0.3
+Siemens,MNAR,0.3,2,DTIN-v2 w/o mask input,internal,Siemens|MNAR|0.3|2|DTIN-v2 w/o mask input|internal,0.3478735544969634,0.3363579610889239,True,159.3,,4750.0,DTIN-v2 w/o mask input,Siemens MNAR 0.3
+Siemens,GAP,30.0,0,DTIN-v2 (mask input + seq-norm),internal,Siemens|GAP|30|0|DTIN-v2 (mask input + seq-norm)|internal,0.27374334936796274,0.2496933057787531,True,198.0,,6500.0,DTIN-v2 (mask input + seq-norm),Siemens GAP 30
+Siemens,GAP,30.0,3,Linear regression,global,Siemens|GAP|30|3|Linear regression|global,0.3609035538589864,0.3408342287195021,True,1.0,,,Linear regression,Siemens GAP 30
+Siemens,GAP,30.0,3,DTIN-v2 w/o mask input,internal,Siemens|GAP|30|3|DTIN-v2 w/o mask input|internal,0.2763862152817075,0.25075213583267186,True,202.7,,11250.0,DTIN-v2 w/o mask input,Siemens GAP 30
+ECG200,MCAR,0.3,2,DTIN-v2 w/o mask input,internal,ECG200|MCAR|0.3|2|DTIN-v2 w/o mask input|internal,0.4149710719020886,,True,68.6,,2500.0,DTIN-v2 w/o mask input,ECG200 MCAR 0.3
+ECG200,MCAR,0.3,2,SAITS,global,ECG200|MCAR|0.3|2|SAITS|global,0.4543062532304224,,True,5.4,0.2741633943077865,,SAITS-global,ECG200 MCAR 0.3
+Siemens,MNAR,0.3,2,DTIN-v2 (mask input + seq-norm),internal,Siemens|MNAR|0.3|2|DTIN-v2 (mask input + seq-norm)|internal,0.3405809220227593,0.33149489937491505,True,114.1,,2500.0,DTIN-v2 (mask input + seq-norm),Siemens MNAR 0.3
+Siemens,GAP,30.0,4,DTIN-v2 w/o mask input,internal,Siemens|GAP|30|4|DTIN-v2 w/o mask input|internal,0.2639565783528637,0.25329040523355945,True,66.6,,4000.0,DTIN-v2 w/o mask input,Siemens GAP 30
+Siemens,MNAR,0.3,0,DTIN-v2 w/o seq-norm,internal,Siemens|MNAR|0.3|0|DTIN-v2 w/o seq-norm|internal,0.516181017868934,0.3383726308415641,True,292.2,,12750.0,DTIN-v2 w/o seq-norm,Siemens MNAR 0.3
+Siemens,MCAR,0.3,4,SAITS,global,Siemens|MCAR|0.3|4|SAITS|global,0.5248975588367776,0.24839871511441544,True,77.7,0.21222856547736646,,SAITS-global,Siemens MCAR 0.3
+Siemens,MAR,0.3,0,DTIN-v2 (mask input + seq-norm),internal,Siemens|MAR|0.3|0|DTIN-v2 (mask input + seq-norm)|internal,0.28323112803222467,0.23603286028251846,True,101.9,,7500.0,DTIN-v2 (mask input + seq-norm),Siemens MAR 0.3
+Siemens,GAP,30.0,2,DTIN-v2 w/o seq-norm,internal,Siemens|GAP|30|2|DTIN-v2 w/o seq-norm|internal,0.5374731811984665,0.2596048493897958,True,198.0,,11000.0,DTIN-v2 w/o seq-norm,Siemens GAP 30
+ECG200,MCAR,0.3,4,KNN,global,ECG200|MCAR|0.3|4|KNN|global,0.39630461659174837,,True,0.0,,,KNN-global,ECG200 MCAR 0.3
+ECG200,MCAR,0.3,0,DTIN-v2 (mask input + seq-norm),internal,ECG200|MCAR|0.3|0|DTIN-v2 (mask input + seq-norm)|internal,0.3799146965566053,,True,73.2,,2750.0,DTIN-v2 (mask input + seq-norm),ECG200 MCAR 0.3
+Siemens,MAR,0.3,2,SAITS,global,Siemens|MAR|0.3|2|SAITS|global,0.3455441485090862,0.3242525290698758,True,77.3,0.2124061874394144,,SAITS-global,Siemens MAR 0.3
+ECG200,MCAR,0.3,2,KNN,global,ECG200|MCAR|0.3|2|KNN|global,0.3836947396688858,,True,0.0,,,KNN-global,ECG200 MCAR 0.3
+Siemens,MNAR,0.3,3,"Transformer (no mask input, no seq-norm)",internal,"Siemens|MNAR|0.3|3|Transformer (no mask input, no seq-norm)|internal",0.524169626554551,0.3369853145123412,True,246.3,,9500.0,"Transformer (no mask input, no seq-norm)",Siemens MNAR 0.3
+Siemens,MCAR,0.3,4,KNN,global,Siemens|MCAR|0.3|4|KNN|global,0.6304353528027494,0.3315068278264728,True,6.5,,,KNN-global,Siemens MCAR 0.3
+Siemens,MNAR,0.3,2,"Transformer (no mask input, no seq-norm)",internal,"Siemens|MNAR|0.3|2|Transformer (no mask input, no seq-norm)|internal",0.4966683581075874,0.3490870339194649,True,284.2,,12000.0,"Transformer (no mask input, no seq-norm)",Siemens MNAR 0.3
+Siemens,MCAR,0.3,1,KNN,global,Siemens|MCAR|0.3|1|KNN|global,0.596699582364348,0.3314066168429442,True,6.3,,,KNN-global,Siemens MCAR 0.3
+Siemens,MCAR,0.3,3,SAITS,global,Siemens|MCAR|0.3|3|SAITS|global,0.5112571444262194,0.2565346131885467,True,43.0,0.23053422692417821,,SAITS-global,Siemens MCAR 0.3
+Siemens,GAP,30.0,4,SAITS,seq,Siemens|GAP|30|4|SAITS|seq,0.28756939332739695,0.2749893123407337,True,25.1,6.899051474490927,,SAITS-seq,Siemens GAP 30
+Siemens,MAR,0.3,2,SAITS,seq,Siemens|MAR|0.3|2|SAITS|seq,0.3332682806162384,0.33424350395340124,True,145.8,10.048027160539167,,SAITS-seq,Siemens MAR 0.3
+Siemens,GAP,30.0,2,DTIN-v2 (mask input + seq-norm),internal,Siemens|GAP|30|2|DTIN-v2 (mask input + seq-norm)|internal,0.26844964439200836,0.2515585249046115,True,205.1,,7000.0,DTIN-v2 (mask input + seq-norm),Siemens GAP 30
+Siemens,MAR,0.3,0,BRITS,seq,Siemens|MAR|0.3|0|BRITS|seq,0.2856415829380495,0.22311991029481687,True,6455.8,1.981494056618342,,BRITS-seq,Siemens MAR 0.3
+Siemens,MNAR,0.3,1,KNN,global,Siemens|MNAR|0.3|1|KNN|global,0.6524492590985407,0.43403322258062765,True,10.7,,,KNN-global,Siemens MNAR 0.3
+ECG200,MCAR,0.3,2,Linear regression,global,ECG200|MCAR|0.3|2|Linear regression|global,0.9937860454726767,,True,0.0,,,Linear regression,ECG200 MCAR 0.3
+Siemens,MAR,0.3,0,DTIN-v2 w/o seq-norm,internal,Siemens|MAR|0.3|0|DTIN-v2 w/o seq-norm|internal,0.4592768200482749,0.26907810705613344,True,172.5,,16250.0,DTIN-v2 w/o seq-norm,Siemens MAR 0.3
+ECG200,MCAR,0.3,4,Linear regression,global,ECG200|MCAR|0.3|4|Linear regression|global,0.9684629182504073,,True,0.0,,,Linear regression,ECG200 MCAR 0.3
+ECG200,MCAR,0.3,3,KNN,seq,ECG200|MCAR|0.3|3|KNN|seq,0.4064293709780971,,True,0.0,,,KNN-seq,ECG200 MCAR 0.3
+Siemens,MNAR,0.3,1,BRITS,seq,Siemens|MNAR|0.3|1|BRITS|seq,0.39101877609889163,0.35296036282832133,True,14683.1,3.5781451483298157,,BRITS-seq,Siemens MNAR 0.3
+Siemens,MNAR,0.3,2,KNN,global,Siemens|MNAR|0.3|2|KNN|global,0.6132290519665071,0.43333678395759323,True,10.9,,,KNN-global,Siemens MNAR 0.3
+Siemens,MCAR,0.3,0,DTIN-v2 w/o seq-norm,internal,Siemens|MCAR|0.3|0|DTIN-v2 w/o seq-norm|internal,0.4863972785987657,0.2873552048453487,True,114.7,,10000.0,DTIN-v2 w/o seq-norm,Siemens MCAR 0.3
+ECG200,MCAR,0.3,1,DTIN-v2 (mask input + seq-norm),internal,ECG200|MCAR|0.3|1|DTIN-v2 (mask input + seq-norm)|internal,0.4023017529017399,,True,46.5,,2250.0,DTIN-v2 (mask input + seq-norm),ECG200 MCAR 0.3
+Siemens,MAR,0.3,0,BRITS,global,Siemens|MAR|0.3|0|BRITS|global,0.48705316560342,0.23683931116353496,True,6023.0,0.21801702255675706,,BRITS-global,Siemens MAR 0.3
+ECG200,MCAR,0.3,0,BRITS,global,ECG200|MCAR|0.3|0|BRITS|global,0.3204408921580877,,True,1098.7,0.3245988036759406,,BRITS-global,ECG200 MCAR 0.3
+Siemens,MNAR,0.3,4,DTIN-v2 w/o seq-norm,internal,Siemens|MNAR|0.3|4|DTIN-v2 w/o seq-norm|internal,0.5069809359566818,0.34226334523501545,True,339.7,,14250.0,DTIN-v2 w/o seq-norm,Siemens MNAR 0.3
+Siemens,MCAR,0.3,4,DTIN-v2 w/o mask input,internal,Siemens|MCAR|0.3|4|DTIN-v2 w/o mask input|internal,0.2723422080787523,0.2190637589922394,True,95.7,,8000.0,DTIN-v2 w/o mask input,Siemens MCAR 0.3
+Siemens,MCAR,0.3,1,DTIN-v2 w/o mask input,internal,Siemens|MCAR|0.3|1|DTIN-v2 w/o mask input|internal,0.2564483969970589,0.2132897558474994,True,71.4,,5500.0,DTIN-v2 w/o mask input,Siemens MCAR 0.3
+Siemens,MCAR,0.3,0,"Transformer (no mask input, no seq-norm)",internal,"Siemens|MCAR|0.3|0|Transformer (no mask input, no seq-norm)|internal",0.4796528886247552,0.2776117998464331,True,150.4,,14250.0,"Transformer (no mask input, no seq-norm)",Siemens MCAR 0.3
+Siemens,MAR,0.3,4,Linear regression,global,Siemens|MAR|0.3|4|Linear regression|global,0.34215119846219105,0.3407553124025599,True,11.3,,,Linear regression,Siemens MAR 0.3
+Siemens,MNAR,0.3,4,DTIN-v2 (mask input + seq-norm),internal,Siemens|MNAR|0.3|4|DTIN-v2 (mask input + seq-norm)|internal,0.34836264882257356,0.33202435889810333,True,139.4,,3750.0,DTIN-v2 (mask input + seq-norm),Siemens MNAR 0.3
+Siemens,GAP,30.0,4,SAITS,global,Siemens|GAP|30|4|SAITS|global,0.5397102252822664,0.27148707822713214,True,70.8,0.22445436962354018,,SAITS-global,Siemens GAP 30
+Siemens,MCAR,0.3,3,"Transformer (no mask input, no seq-norm)",internal,"Siemens|MCAR|0.3|3|Transformer (no mask input, no seq-norm)|internal",0.5014048524847485,0.27940629303116227,True,135.7,,13500.0,"Transformer (no mask input, no seq-norm)",Siemens MCAR 0.3
+ECG200,MCAR,0.3,4,SAITS,seq,ECG200|MCAR|0.3|4|SAITS|seq,0.416071933285511,,True,5.2,0.25686602224811983,,SAITS-seq,ECG200 MCAR 0.3
+ECG200,MCAR,0.3,2,KNN,seq,ECG200|MCAR|0.3|2|KNN|seq,0.40592804524916776,,True,0.0,,,KNN-seq,ECG200 MCAR 0.3
+Siemens,GAP,30.0,0,DTIN-v2 w/o seq-norm,internal,Siemens|GAP|30|0|DTIN-v2 w/o seq-norm|internal,0.5143299879193534,0.28037115933140816,True,321.9,,13250.0,DTIN-v2 w/o seq-norm,Siemens GAP 30
+Siemens,MCAR,0.3,4,BRITS,global,Siemens|MCAR|0.3|4|BRITS|global,0.5728424393157434,0.2287409484634103,True,5951.6,0.20705821923077145,,BRITS-global,Siemens MCAR 0.3
+Siemens,GAP,30.0,4,DTIN-v2 (mask input + seq-norm),internal,Siemens|GAP|30|4|DTIN-v2 (mask input + seq-norm)|internal,0.2895183431237923,0.25319579018831134,True,98.7,,4000.0,DTIN-v2 (mask input + seq-norm),Siemens GAP 30
+Siemens,MNAR,0.3,3,KNN,seq,Siemens|MNAR|0.3|3|KNN|seq,0.4109643922383444,0.3981149076470963,True,11.6,,,KNN-seq,Siemens MNAR 0.3
+Siemens,MNAR,0.3,1,DTIN-v2 (mask input + seq-norm),internal,Siemens|MNAR|0.3|1|DTIN-v2 (mask input + seq-norm)|internal,0.36701577021642445,0.3300962835403217,True,179.3,,6000.0,DTIN-v2 (mask input + seq-norm),Siemens MNAR 0.3
+ECG200,MCAR,0.3,3,BRITS,global,ECG200|MCAR|0.3|3|BRITS|global,0.30993880047572325,,True,1018.5,0.27076683676732977,,BRITS-global,ECG200 MCAR 0.3
+Siemens,MCAR,0.3,1,SAITS,seq,Siemens|MCAR|0.3|1|SAITS|seq,0.22810522743761535,0.21779832995583126,True,95.7,2.841060797788282,,SAITS-seq,Siemens MCAR 0.3

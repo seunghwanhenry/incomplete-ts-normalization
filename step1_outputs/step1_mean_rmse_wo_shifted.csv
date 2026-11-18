@@ -1,0 +1,12 @@
+label,Siemens GAP 30,Siemens MAR 0.3,Siemens MCAR 0.3,Siemens MNAR 0.3
+BRITS-global,0.2903,0.2495,0.2294,0.352
+BRITS-seq,0.2706,0.2475,0.2217,0.3509
+DTIN-v2 (mask input + seq-norm),0.2517,0.258,0.2197,0.3306
+DTIN-v2 w/o mask input,0.2508,0.2473,0.2199,0.3355
+DTIN-v2 w/o seq-norm,0.2714,0.2741,0.2729,0.348
+KNN-global,0.3397,0.3493,0.333,0.4338
+KNN-seq,0.3337,0.3287,0.3147,0.4009
+Linear regression,0.3413,0.3504,0.3388,0.4465
+SAITS-global,0.2706,0.2676,0.2594,0.4225
+SAITS-seq,0.2743,0.2515,0.2238,0.3522
+"Transformer (no mask input, no seq-norm)",0.2682,0.2661,0.2578,0.3474
